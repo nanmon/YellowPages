@@ -22,7 +22,6 @@
  * Boston, MA  02111-1307, USA.
  * **************************************************************
  */
-package examples.yellowPages;
 
 import jade.core.Agent;
 import jade.core.AID;
@@ -48,6 +47,7 @@ public class DFRegisterAgent extends Agent {
   	// Read the name of the service to register as an argument
   	Object[] args = getArguments();
   	if (args != null && args.length > 0) {
+		// Ag:DFRegisterAgent(arg1,arg2,...)
   		serviceName = (String) args[0];
   	}
   	

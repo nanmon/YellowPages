@@ -22,7 +22,6 @@
  * Boston, MA  02111-1307, USA.
  * **************************************************************
  */
-package examples.yellowPages;
 
 import jade.core.Agent;
 import jade.core.AID;
