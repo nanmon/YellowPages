@@ -6,8 +6,8 @@ DFRegisterAgent
 Description:
 This example shows how to register an application specific service in the Yellow Pages catalogue managed by the DF Agent so that other agents can dynamically discover it. In this case in particular we register a “Weather-forecast” service for Italy. The name of this service is specified as a command line argument.This example should be used together with the DFSearchAgent and the DFSubscribeAgent as described below.
 
-Start the JADE runtime (with the management GUI) and launch a DFRegisterAgent on it. Also specify a name for the service to register (e.g. “my-forecast”) as an argument. The command line could be
-java jade.Boot -gui provider:examples.yellowPages.DFRegisterAgent(my-forecast)
+Start the JADE runtime (with the management GUI) and launch a DFRegisterAgent on it. Also specify a name for the service to register (e.g. “my-forecast”) as an argument. 
+The command line could be java jade.Boot -gui provider:examples.yellowPages.DFRegisterAgent(my-forecast)
 Then, from another window (or from the management GUI), launch a DFSearchAgent.
 java jade.Boot -container searcher:examples.yellowPages.DFSearchAgent
 The DFSearchAgent should find the service registered by the DFRegisterAgent.
